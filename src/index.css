@@ -1,0 +1,21 @@
+/* src/index.css */
+
+@config "../tailwind.config.js";
+
+@import url("https://fonts.cdnfonts.com/css/encode-sans-sc");
+
+@import url("https://fonts.cdnfonts.com/css/beyonders");
+
+@import url("https://fonts.cdnfonts.com/css/interstate-2");
+
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+
+@import "tailwindcss";
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
