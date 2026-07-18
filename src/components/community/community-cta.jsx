@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import phoneGif from "../../assets/images/phone.gif";
 
 const CommunitySection = () => {
   return (
@@ -34,7 +33,7 @@ const CommunitySection = () => {
 
         {/* Right: Animated African Map */}
         <div className="relative flex items-center justify-center h-137.5">
-          <img src={phoneGif} alt="Africa" />
+          <img src="/africa.png" alt="Africa" />
         </div>
       </div>
     </section>

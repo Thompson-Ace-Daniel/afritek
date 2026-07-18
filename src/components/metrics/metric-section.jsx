@@ -4,7 +4,6 @@ import { TrendingUp, Wallet, Award, ShieldCheck, Lock } from "lucide-react";
 import { GoldSpeedometer } from "./goldspeedometer";
 import { Chip } from "./chip";
 import { HoverButton } from "../buttons/hover-button";
-import phoneGif from "../../assets/images/phone.gif";
 
 const MetricSection = () => {
   const containerRef = useRef(null);
@@ -56,7 +55,7 @@ const MetricSection = () => {
           >
             <div className="w-full h-full rounded-xl overflow-hidden relative">
               <img
-                src={phoneGif}
+                src="/africa.png"
                 alt="Smartphone Asset Representation"
                 className="w-full h-full object-cover opacity-90 mix-blend-screen"
               />
