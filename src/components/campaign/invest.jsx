@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-
-import image from "../../assets/images/phone.gif";
+import GoldCoin from "../utils/gold-coin";
 
 const EquitySection = () => {
   return (
@@ -44,12 +43,7 @@ const EquitySection = () => {
           className="relative flex justify-center md:justify-end"
         >
           <div className="absolute inset-0 bg-[#D4AF37]/10 blur-[120px] rounded-full scale-75" />
-
-          <img
-            src={image}
-            alt="Afritek Smartphone"
-            className="relative w-full max-w-sm drop-shadow-2xl"
-          />
+          <GoldCoin />
         </motion.div>
       </div>
     </section>
